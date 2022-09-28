@@ -1,0 +1,25 @@
+{
+  "name": "@monorepo/domain",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "tsc --noEmit false"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "supertest": "^6.1.3",
+    "ts-jest": "^29.0.2",
+    "typescript": "^4.6.4",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.0.0",
+    "@types/supertest": "^2.0.11"
+  }
+}
